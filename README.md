@@ -1,8 +1,6 @@
 # 🔐 Laboratório DevSecOps
 
-Meu laboratório de estudos para aprender e praticar conceitos de **DevSecOps**.
-
-## 📚 Conteúdos de estudo
+Meu laboratório de estudos e práticas para aprender DevSecOps.
 
 ## 📚 Conteúdos de estudo
 
@@ -13,14 +11,14 @@ Meu laboratório de estudos para aprender e praticar conceitos de **DevSecOps**.
 - ⚙️ GitHub Actions
 - 🔐 Segurança de pipelines
 - 🕵️ Gitleaks
-- 🐳 Docker
-- ☸️ Kubernetes
-- ☁️ Cloud
 - 🔎 SAST
 - 🔎 DAST
+- 🔑 Gestão de segredos
+- 🐳 Docker
 - 📦 Containers
 - 🚀 Deploy
-- 🔑 Gestão de segredos
+- ☁️ Cloud
+- ☸️ Kubernetes
 - 📊 Monitoramento
 
 ## ✅ Conteúdos estudados
@@ -34,10 +32,9 @@ Meu laboratório de estudos para aprender e praticar conceitos de **DevSecOps**.
 - 🕵️ Gitleaks
 - 🔐 Segurança no pipeline
 
-
 ## 🎯 Objetivo
 
-Construir uma base prática em DevSecOps, estudando ferramentas, automação, segurança e integração contínua.
+Construir uma base prática em DevSecOps, aprendendo Linux, Git, CI/CD, automação, segurança, containers, cloud e monitoramento.
 
 ## 📌 Progresso
 
