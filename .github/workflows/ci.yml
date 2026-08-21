@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Baixar o código
-        uses: actions/checkout@v4
+        uses: uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608
 
       - name: Build
         run: echo "Build realizado com sucesso!"
