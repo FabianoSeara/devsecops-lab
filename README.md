@@ -45,9 +45,9 @@ Construir uma base prática em DevSecOps, aprendendo Linux, Git, CI/CD, automaç
 - [x] CI/CD básico
 - [x] GitHub Actions
 - [x] Gitleaks
-- [ ] SAST
+- [x] SAST
+- [x] Segurança de pipelines
 - [ ] DAST
-- [ ] Segurança de pipelines
 - [ ] Gestão de segredos
 - [ ] Docker
 - [ ] Containers
