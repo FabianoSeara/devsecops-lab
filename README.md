@@ -31,6 +31,7 @@ Meu laboratório de estudos e práticas para aprender DevSecOps.
 - ⚙️ GitHub Actions
 - 🕵️ Gitleaks
 - 🔐 Segurança no pipeline
+- 🐳 Docker
 
 ## 🎯 Objetivo
 
