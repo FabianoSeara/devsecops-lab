@@ -49,7 +49,7 @@ Construir uma base prática em DevSecOps, aprendendo Linux, Git, CI/CD, automaç
 - [x] Segurança de pipelines
 - [ ] DAST
 - [ ] Gestão de segredos
-- [ ] Docker
+- [x] Docker
 - [ ] Containers
 - [ ] Deploy
 - [ ] Cloud
