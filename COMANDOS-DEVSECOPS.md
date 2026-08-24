@@ -325,3 +325,183 @@ E finalmente:
 ```bash
 git push origin main
 ```
+
+
+---
+
+# 🐳 6. Docker
+
+## `docker --version`
+
+Mostra a versão instalada do Docker.
+```bash
+docker --version
+```
+
+## `sudo systemctl status docker`
+
+Verifica se o serviço do Docker está funcionando.
+```bash
+sudo systemctl status docker
+```
+
+## `sudo usermod -aG docker $USER`
+
+Adiciona o usuário ao grupo docker.
+```bash
+sudo usermod -aG docker $USER
+```
+
+## `groups`
+
+Mostra os grupos aos quais o usuário pertence.
+```bash
+groups
+```
+
+## `docker run hello-world`
+
+Baixa a imagem `hello-world` e cria um container para testar o Docker.
+```bash
+docker run hello-world
+```
+
+## `docker build`
+
+Cria uma imagem Docker usando o Dockerfile do diretório atual.
+```bash
+docker build -t devsecops-lab .
+```
+
+## `docker run`
+
+Cria e executa um container a partir da imagem.
+```bash
+docker run devsecops-lab
+```
+
+## `docker images`
+
+Mostra as imagens Docker disponíveis no computador.
+```bash
+docker images
+```
+
+## `docker ps`
+
+Mostra os containers em execução.
+```bash
+docker ps
+```
+
+## `docker ps -a`
+
+Mostra todos os containers, inclusive os parados.
+```bash
+docker ps -a
+```
+
+## `docker run -it`
+
+Cria um container interativo e abre um terminal dentro dele.
+```bash
+docker run -it ubuntu:24.04 bash
+```
+
+## `whoami`
+
+Mostra o usuário atual dentro do container.
+```bash
+whoami
+```
+
+## `hostname`
+
+Mostra o nome ou identificador do container.
+```bash
+hostname
+```
+
+## `pwd`
+
+Mostra o diretório atual.
+```bash
+pwd
+```
+
+## `ls`
+
+Lista os arquivos e diretórios.
+```bash
+ls
+```
+
+## `cat /etc/os-release`
+
+Mostra informações sobre o sistema operacional do container.
+```bash
+cat /etc/os-release
+```
+
+## `exit`
+
+Sai do container.
+```bash
+exit
+```
+
+## `docker run --name`
+
+Cria um container com um nome definido pelo usuário.
+```bash
+docker run -it --name lab-ubuntu ubuntu:24.04 bash
+```
+
+## `docker start`
+
+Inicia um container que já foi criado.
+```bash
+docker start lab-ubuntu
+```
+
+## `docker exec`
+
+Abre um terminal dentro de um container que já está rodando.
+```bash
+docker exec -it lab-ubuntu bash
+```
+
+## `docker rm`
+
+Remove um container.
+```bash
+docker rm NOME_OU_ID
+```
+
+## `docker rmi`
+
+Remove uma imagem Docker.
+```bash
+docker rmi NOME_OU_ID
+```
+
+### ⚠️ Diferença importante
+
+`docker rm` → remove um **CONTAINER**.
+
+`docker rmi` → remove uma **IMAGEM**.
+
+### 🧠 Conceitos Docker
+
+**Imagem** → modelo usado para criar containers.
+
+**Container** → instância criada a partir de uma imagem.
+
+**`docker run`** → cria e inicia um novo container.
+
+**`docker start`** → inicia um container existente.
+
+**`docker exec`** → executa comandos dentro de um container que já está rodando.
+
+**`Exited (0)`** → o container terminou normalmente, sem erro.
+
