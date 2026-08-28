@@ -523,7 +523,7 @@ Constrói uma imagem Docker usando o Dockerfile do diretório atual.
 docker build -t devsecops-lab .
 ````
 
-## `docker run devsecops-lab.`
+## `docker run devsecops-lab`
 
 Cria e executa um container a partir da imagem devsecops-lab.
 
