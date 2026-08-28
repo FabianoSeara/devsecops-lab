@@ -515,6 +515,23 @@ Remove uma imagem Docker.
 docker rmi NOME_OU_ID
 ```
 
+## `docker build -t devsecops-lab .`
+
+Constrói uma imagem Docker usando o Dockerfile do diretório atual.
+
+```bash
+docker build -t devsecops-lab .
+````
+
+## `docker run devsecops-lab.`
+
+Cria e executa um container a partir da imagem devsecops-lab.
+
+````bash
+docker run devsecops-lab
+````
+
+
 ### ⚠️ Diferença importante
 
 `docker rm` → remove um **CONTAINER**.
