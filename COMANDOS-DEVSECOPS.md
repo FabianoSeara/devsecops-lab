@@ -531,6 +531,17 @@ Cria e executa um container a partir da imagem devsecops-lab.
 docker run devsecops-lab
 ````
 
+## `.dockerignore`
+
+Define arquivos e pastas que não devem ser enviados para o contexto do build Docker.
+
+Exemplo:
+
+```text
+.venv
+.git
+.github
+
 
 ### ⚠️ Diferença importante
 
