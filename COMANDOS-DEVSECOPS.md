@@ -546,13 +546,41 @@ docker rmi NOME_OU_ID
 
 Imagem
    ↓
+
 docker run
    ↓
+
 Container
    ↓
+
 docker exec
    ↓
+
 docker stop
    ↓
+
 docker rm
 
+
+## `docker image inspect`
+
+Mostra informações detalhadas sobre uma imagem Docker.
+
+```bash
+docker image inspect devsecops-lab
+
+Principais informações observadas:
+
+- Architecture → arquitetura da imagem.
+
+- Os → sistema operacional.
+
+- RepoTags → nome e tag da imagem.
+
+- Cmd → comando executado ao iniciar o container.
+
+- Parent → imagem usada como base.
+
+- Layers → camadas que formam a imagem.
+
+- Size → tamanho da imagem.
