@@ -543,6 +543,23 @@ Exemplo:
 .github
 ```
 
+## `docker history`
+
+Mostra o histórico e as camadas de uma imagem Docker.
+
+```bash
+docker history devsecops-lab
+```
+
+### `Docker Cache`
+ 
+Quando uma etapa do Dockerfile não mudou, o Docker pode reutilizar a camada já criada.
+Durante o laboratório:
+
+```Using cache
+Isso evita reconstruções desnecessárias e torna os builds mais rápidos e eficientes```
+
+
 ### ⚠️ `Diferença importante`
 
 `docker rm` → remove um **CONTAINER**.
