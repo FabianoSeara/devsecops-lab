@@ -32,6 +32,12 @@ Meu laboratório de estudos e práticas para aprender DevSecOps.
 - 🕵️ Gitleaks
 - 🔐 Segurança no pipeline
 - 🐳 Docker
+- 📦 Imagens e containers
+- 📄 Dockerfile
+- 🚫 .dockerignore
+- 🧱 Camadas do Docker
+- ⚡ Cache de build
+- 🐍 Python + Docker
 
 ## 🎯 Objetivo
 
@@ -51,8 +57,9 @@ Construir uma base prática em DevSecOps, aprendendo Linux, Git, CI/CD, automaç
 - [ ] DAST
 - [ ] Gestão de segredos
 - [x] Docker
-- [ ] Containers
+- [x] Containers
 - [ ] Deploy
 - [ ] Cloud
 - [ ] Kubernetes
 - [ ] Monitoramento
+- [x] Python + Docker
