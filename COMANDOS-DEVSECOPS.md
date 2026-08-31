@@ -543,6 +543,7 @@ Exemplo:
 .github
 ```
 
+
 ## `docker history`
 
 Mostra o histórico e as camadas de uma imagem Docker.
@@ -559,6 +560,66 @@ Durante o laboratório:
 ```Using cache
 Isso evita reconstruções desnecessárias e torna os builds mais rápidos e eficientes
 ```
+
+## 🐍 7. Python + Docker
+
+### Criar aplicação Python
+
+```bash
+nano app.py
+```
+
+Executar a aplicação diretamente no Linux:
+
+```
+python3 app.py
+```
+
+###  Dockerfile com Python
+
+FROM ubuntu:24.04
+
+RUN apt-get update && apt-get install -y python3
+
+COPY app.py /app.py
+
+CMD ["python3", "/app.py"]
+
+
+###  Criar imagem
+
+```
+docker build -t devsecops-python .
+```
+
+### Executar container
+
+```
+ docker run devsecops-python
+```
+
+
+### Fluxo 
+
+Python
+↓ 
+
+Dockerfile
+↓
+
+docker build
+↓
+
+Imagem
+↓
+
+docker run
+↓
+
+Container
+↓
+
+Aplicação Python
 
 
 ### ⚠️ `Diferença importante`

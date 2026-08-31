@@ -1,6 +1,9 @@
 FROM ubuntu:24.04
 
-RUN echo "Camada criada durante a build"
+RUN apt-get update && apt-get install -y python3
 
-CMD ["echo", "Meu container DevSecOps está funcionando!"]
+COPY app.py /app.py
+
+CMD ["python3", "/app.py"]
+
 
