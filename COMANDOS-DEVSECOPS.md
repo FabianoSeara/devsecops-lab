@@ -537,19 +537,19 @@ Define arquivos e pastas que não devem ser enviados para o contexto do build Do
 
 Exemplo:
 
-```text
+```
 .venv
 .git
 .github
+```
 
-
-### ⚠️ Diferença importante
+### ⚠️ `Diferença importante`
 
 `docker rm` → remove um **CONTAINER**.
 
 `docker rmi` → remove uma **IMAGEM**.
 
-### 🧠 Conceitos Docker
+### 🧠 `Conceitos Docker`
 
 **Imagem** → modelo usado para criar containers.
 
@@ -570,7 +570,7 @@ Exemplo:
 **`Exited (0)`** → o container terminou normalmente, sem erro.
 
 
-### Ciclo básico do Docker
+### `Ciclo básico do Docker`
 
 Imagem
    ↓
