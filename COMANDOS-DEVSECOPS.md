@@ -557,7 +557,8 @@ Quando uma etapa do Dockerfile não mudou, o Docker pode reutilizar a camada já
 Durante o laboratório:
 
 ```Using cache
-Isso evita reconstruções desnecessárias e torna os builds mais rápidos e eficientes```
+Isso evita reconstruções desnecessárias e torna os builds mais rápidos e eficientes
+```
 
 
 ### ⚠️ `Diferença importante`
