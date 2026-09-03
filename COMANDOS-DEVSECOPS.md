@@ -691,3 +691,13 @@ Principais informações observadas:
 - Layers → camadas que formam a imagem.
 
 - Size → tamanho da imagem.
+
+
+### Docker Scout Recommendations
+
+```verifica se existe uma versão mais atual ou uma imagem base alternativa que possa reduzir vulnerabilidades.
+ No nosso laboratório, o Scout informou que ubuntu:24.04 está atualizada e não existem tags alternativas recomendadas
+```
+
+
+
