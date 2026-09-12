@@ -1,9 +1,16 @@
-FROM ubuntu:24.04
+FROM python:3.14-alpine
 
-RUN apt-get update && apt-get upgrade -y && apt-get install -y python3
+WORKDIR /app
 
-COPY app.py /app.py
+COPY app.py .
 
-CMD ["python3", "/app.py"]
+RUN apk update && apk upgrade
 
+RUN python -m pip install --no-cache-dir --upgrade pip==26.2.0 msgpack==1.2.1 setuptools==83.0.0
+
+RUN adduser -D appuser
+
+USER appuser
+
+CMD ["python", "app.py"]
 
