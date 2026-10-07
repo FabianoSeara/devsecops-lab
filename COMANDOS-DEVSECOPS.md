@@ -699,5 +699,18 @@ Principais informações observadas:
  No nosso laboratório, o Scout informou que ubuntu:24.04 está atualizada e não existem tags alternativas recomendadas
 ```
 
+---
 
+# 🛡️ 8. DAST / OWASP ZAP
+
+## Conceito
+
+DAST (Dynamic Application Security Testing) analisa uma aplicação enquanto ela está em execução.
+
+No laboratório, utilizamos o OWASP ZAP para realizar uma análise dinâmica da aplicação Flask executando dentro de um container Docker.
+
+## Verificar versão do OWASP ZAP
+
+```bash
+docker run --rm ghcr.io/zaproxy/zaproxy:stable zap.sh -version
 

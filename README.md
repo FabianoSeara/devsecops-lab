@@ -38,6 +38,7 @@ Meu laboratório de estudos e práticas para aprender DevSecOps.
 - 🧱 Camadas do Docker
 - ⚡ Cache de build
 - 🐍 Python + Docker
+- 🛡️ DAST com OWASP ZAP
 
 ## 🎯 Objetivo
 
@@ -54,7 +55,7 @@ Construir uma base prática em DevSecOps, aprendendo Linux, Git, CI/CD, automaç
 - [x] Gitleaks
 - [x] SAST
 - [x] Segurança de pipelines
-- [ ] DAST
+- [x] DAST
 - [ ] Gestão de segredos
 - [x] Docker
 - [x] Containers

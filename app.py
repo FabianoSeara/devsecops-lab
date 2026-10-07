@@ -1,1 +1,24 @@
-print("Minha primeira aplicação Python no Docker!")
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.after_request
+def security_headers(response):
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["Content-Security-Policy"] = "default-src 'self'"
+    response.headers["Permissions-Policy"] = "camera=(), microphone=(), geolocation=()"
+    response.headers["Cross-Origin-Embedder-Policy"] = "require-corp"
+    response.headers["Cross-Origin-Opener-Policy"] = "same-origin"
+    response.headers["Cross-Origin-Resource-Policy"] = "same-origin"
+    response.headers["Cache-Control"] = "no-store"
+    
+
+    return response
+
+@app.route("/")
+def home():
+    return "Minha primeira aplicação web no laboratório DevSecOps!"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
