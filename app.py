@@ -1,4 +1,8 @@
 from flask import Flask
+from werkzeug.serving import WSGIRequestHandler
+
+WSGIRequestHandler.server_version = ""
+WSGIRequestHandler.sys_version = ""
 
 app = Flask(__name__)
 
@@ -21,4 +25,4 @@ def home():
     return "Minha primeira aplicação web no laboratório DevSecOps!"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="127.0.0.1", port=5000)
