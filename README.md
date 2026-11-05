@@ -1,66 +1,66 @@
-# 🔐 Laboratório DevSecOps
+# DevSecOps Lab
 
-Meu laboratório de estudos e práticas para aprender DevSecOps.
+My study and practice lab to learn DevSecOps.
 
-## 📚 Conteúdos de estudo
+## 📚 Study Topics
 
 - 🐧 Linux
 - 🌿 Git
 - 🐙 GitHub
 - 🔄 CI/CD
 - ⚙️ GitHub Actions
-- 🔐 Segurança de pipelines
+- 🔐 Pipeline security
 - 🕵️ Gitleaks
-- 🔎 SAST
-- 🔎 DAST
-- 🔑 Gestão de segredos
+- 🔎 SAST (Static Application Security Testing)
+- 🔎 DAST (Dynamic Application Security Testing)
+- 🔑 Secrets management
 - 🐳 Docker
 - 📦 Containers
-- 🚀 Deploy
+- 🚀 Deployment
 - ☁️ Cloud
 - ☸️ Kubernetes
-- 📊 Monitoramento
+- 📊 Monitoring
 
-## ✅ Conteúdos estudados
+## ✅ Completed Topics
 
-- 🐧 Linux básico
-- 🌿 Git básico
+- 🐧 Linux basics
+- 🌿 Git basics
 - 🐙 GitHub
-- 🔀 Branches e merge
-- 🔄 CI/CD básico
+- 🔀 Branches and merge
+- 🔄 CI/CD basics
 - ⚙️ GitHub Actions
 - 🕵️ Gitleaks
-- 🔐 Segurança no pipeline
+- 🔐 Pipeline security
 - 🐳 Docker
-- 📦 Imagens e containers
+- 📦 Images and containers
 - 📄 Dockerfile
 - 🚫 .dockerignore
-- 🧱 Camadas do Docker
-- ⚡ Cache de build
+- 🧱 Docker layers
+- ⚡ Build cache
 - 🐍 Python + Docker
-- 🛡️ DAST com OWASP ZAP
+- 🛡️ DAST with OWASP ZAP
 
-## 🎯 Objetivo
+## 🎯 Objective
 
-Construir uma base prática em DevSecOps, aprendendo Linux, Git, CI/CD, automação, segurança, containers, cloud e monitoramento.
+Build a practical foundation in DevSecOps, learning Linux, Git, CI/CD, automation, security, containers, cloud, and monitoring.
 
-## 📌 Progresso
+## 📌 Progress
 
-- [x] Linux básico
-- [x] Git básico
+- [x] Linux basics
+- [x] Git basics
 - [x] GitHub
-- [x] Branches e merge
-- [x] CI/CD básico
+- [x] Branches and merge
+- [x] CI/CD basics
 - [x] GitHub Actions
 - [x] Gitleaks
 - [x] SAST
-- [x] Segurança de pipelines
+- [x] Pipeline security
 - [x] DAST
-- [ ] Gestão de segredos
+- [ ] Secrets management
 - [x] Docker
 - [x] Containers
-- [ ] Deploy
+- [ ] Deployment
 - [ ] Cloud
 - [ ] Kubernetes
-- [ ] Monitoramento
+- [ ] Monitoring
 - [x] Python + Docker
