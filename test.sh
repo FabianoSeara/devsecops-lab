@@ -1,6 +1,6 @@
 #!/bin/bash
 
-grep -q "# 🔐 Laboratório DevSecOps" README.md
+grep -q "# DevSecOps Lab" README.md
 
 if [ $? -eq 0 ]; then
    echo "Teste passou!"
